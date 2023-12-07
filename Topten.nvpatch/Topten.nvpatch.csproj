@@ -1,10 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <Import Project="../buildtools/Topten.props" />
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>nvpatch</ToolCommandName>
